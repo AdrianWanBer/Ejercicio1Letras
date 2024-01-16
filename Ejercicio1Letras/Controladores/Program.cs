@@ -38,7 +38,7 @@ namespace Ejercicio1Letras.Controladores
             codigoPostal = oi.codigoPostalYValidacion();
 
             //Concatenacion del nombre completo (4)
-            string nombreCompleto = (primerApellido + " " + segundoApellido + ", " + nombre);
+            string nombreCompleto = (primerApellido + " " + segundoApellido + ", " + nombre + ".");
 
             //Serapar los apellidos del nombre y guardarlos (5)
             string[] apellidosSolo = nombreCompleto.Split(",");
